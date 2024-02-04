@@ -1,4 +1,4 @@
-pyautogen
+autogen
 os
 json
 streamlit
