@@ -1,2 +1,1 @@
-contextlib
-pyautogen
+pyautogen=0.2.10
