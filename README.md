@@ -32,6 +32,6 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
 5. change the text of building_task in builddebateteam tyo whatever you want.
 6. run.
 7. you will be prompted for an optional test debate topic and a name for the saved debate team.
-8. if you use your debate team with either debatemanager or a Streamlit app, be sure to specifiy the name and location of your debate team json file in debatemanager __main___ or streamlit_app.py as appropriate. If you uploaded the json file containing your debate team speciifcation to your own repository or somewhere else, you can give the url ratther than a file address. 
+8. if you use your debate team with either debatemanager or a Streamlit app, be sure to specifiy the name and location of your debate team json file in debatemanager __main___ or streamlit_app.py as appropriate. If you uploaded the json file containing your debate team speciifcation to your own repository or somewhere else, you can give the url ratther than a file address.
 
 
