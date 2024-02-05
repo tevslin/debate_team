@@ -1,5 +1,5 @@
 # debate_team
-Code and samples for creating and using a debate team of AI agents with with Agent AutoBuild.
+Code, samples, and a working app for creating and using a debate team of AI agents with with Agent AutoBuild.
 
 ## overview
 
@@ -11,7 +11,20 @@ The depository is set up so that an application can be uploaded to the Streamlit
 
 debatemanager.py is incorporated in the streamlit app but also be run as standalone Python with a console-based interface to test debating and debate topics.
 
-ststreamer is a helper module for the streamer app which reditects console output and streams it to the streamlit user while a long-running app (like a debate) is writing to console. It is usable independent of the rest of this code but is not on PyPi. 
+ststreamer.py is a helper module for the streamer app which reditects console output and streams it to the streamlit user while a long-running app (like a debate) is writing to console. It is usable independent of the rest of this code but is not on PyPi. 
 
+## usage
+
+### as a streamlit app:
+Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key in the paid tier. The free api key will not work because the agents use GPT4.
+
+### as a basis for deploying your own Streamlit app.
+1. Clone the repository.
+2. Make any changes you want to make.
+3. Be sure to update .gitignore and requirements.txt as needed.
+4. deploy from Streamlit (you need an acount, of course)
+
+### to make a modified debate team
+1. 
 
 
