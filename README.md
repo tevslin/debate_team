@@ -48,7 +48,7 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
         func(*args, **kwargs)
     output = f.getvalue()
     return output
-
+ ~~~
 ## ideas for enhancement
 Let one or more of the debaters be humans
 
