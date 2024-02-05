@@ -62,7 +62,7 @@ Implement with an open source LLM
 No code here explititly collects any information of any kind. However, some usage stastics are available from both github and Streamlit.
 
 ## disclaimer
-This all comes with no warranty of any kind nor any promise to fix problems or maintain compatabity with the code it uses. However, bug reprorts, issues, and enhancement pull requests are welcome.
+This all comes with no warranty of any kind nor any promise to fix problems or maintain compatabity with the code it uses. However, bug reports, issues, and enhancement pull requests are welcome.
 
 
 
