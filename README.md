@@ -1,6 +1,8 @@
 # debate_team
 Code, samples, and a working app for creating and using a debate team of AI agents with with Agent AutoBuild.
 
+Meant mainly as an example of what can be done with multiple agents and of how it is to create badly-needed teachingl tools with AI.
+
 ## overview
 
 [Autobuild](https://microsoft.github.io/autogen/blog/2023/11/26/Agent-AutoBuild/) is part of autogen from Microsoft. It partly automates the task of a creating a group of agents to coloborate on a task. It is low-code but not no-code.
@@ -22,7 +24,7 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
 1. clone the repository.
 2. make any changes you want to make.
 3. be sure to update .gitignore and requirements.txt as needed.
-4. deploy from Streamlit (you need an acount, of course)
+4. deploy from Streamlit (you need an acount, of course).
 
 ### to make a modified debate team
 1. download builddebateteamm.py and SAMPLE.env into your favorite IDE.
@@ -33,5 +35,32 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
 6. run.
 7. you will be prompted for an optional test debate topic and a name for the saved debate team.
 8. if you use your debate team with either debatemanager or a Streamlit app, be sure to specifiy the name and location of your debate team json file in debatemanager __main___ or streamlit_app.py as appropriate. If you uploaded the json file containing your debate team speciifcation to your own repository or somewhere else, you can give the url ratther than a file address.
+
+### to capture console output from a Python finction and stream it to streamlit
+1. download ststreamer.py (it's not on PyPi).
+2. import ststreamer into the code that your're writing
+3. write a function like this and use it to call your function.
+4. ~~~Python
+    # Function to capture the console output
+    def capture_console_output(func, *args, **kwargs):
+      f = ststreamer.ObservableStringIO()
+      with redirect_stdout(f):
+        func(*args, **kwargs)
+    output = f.getvalue()
+    return output
+
+## ideas for enhancement
+Let one or more of the debaters be humans
+Empoweer the debaters to do research
+Empower the judge to fact-check
+Implement with an open source LLM
+
+## privacy
+No code here explititly collects any information of any kind. However, some usage stastics are available fro both github and Streamlit.
+
+## disclaimer
+This allcome with no warrabnty of any kind nor any promise to fix problems or maintain compatabity with the code it uses. However, bug reprorts, issues, and enhancement pull reuests are welcone.
+
+
 
 
