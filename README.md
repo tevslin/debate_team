@@ -40,7 +40,7 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
 1. download ststreamer.py (it's not on PyPi).
 2. import ststreamer into the code that your're writing
 3. write a function like this and use it to call your function.
-4. ~~~Python
+ ~~~Python
     # Function to capture the console output
     def capture_console_output(func, *args, **kwargs):
       f = ststreamer.ObservableStringIO()
@@ -51,15 +51,18 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
 
 ## ideas for enhancement
 Let one or more of the debaters be humans
+
 Empoweer the debaters to do research
+
 Empower the judge to fact-check
+
 Implement with an open source LLM
 
 ## privacy
-No code here explititly collects any information of any kind. However, some usage stastics are available fro both github and Streamlit.
+No code here explititly collects any information of any kind. However, some usage stastics are available from both github and Streamlit.
 
 ## disclaimer
-This allcome with no warrabnty of any kind nor any promise to fix problems or maintain compatabity with the code it uses. However, bug reprorts, issues, and enhancement pull reuests are welcone.
+This allcome with no warrabnty of any kind nor any promise to fix problems or maintain compatabity with the code it uses. However, bug reprorts, issues, and enhancement pull requests are welcome.
 
 
 
