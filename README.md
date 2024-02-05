@@ -25,6 +25,13 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
 4. deploy from Streamlit (you need an acount, of course)
 
 ### to make a modified debate team
-1. 
+1. download builddebateteamm.py and SAMPLE.env into your favorite IDE.
+2. modify SAMPLE.env by addind your own paid OPENAI api key where indicated. The free api key will not work because the agents and agentbuilder use GPT4.
+3. Save as .env.
+4. pip install autogen[autobuild]
+5. change the text of building_task in builddebateteam tyo whatever you want.
+6. run.
+7. You will be prompted for an optional test debate topic and a name for the saved debate team.
+8. If you use your debate team with either debatemanager or a Streamlit app, be sure to specifiy the name and location of your debate team json file in debatemanager __main___ or streamlit_app.py as appropriate. If you uploiaded the json file containing your debate team speciifcation to your own reepository. 
 
 
