@@ -19,19 +19,19 @@ ststreamer.py is a helper module for the streamer app which reditects console ou
 Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key in the paid tier. The free api key will not work because the agents use GPT4.
 
 ### as a basis for deploying your own Streamlit app.
-1. Clone the repository.
-2. Make any changes you want to make.
-3. Be sure to update .gitignore and requirements.txt as needed.
+1. clone the repository.
+2. make any changes you want to make.
+3. be sure to update .gitignore and requirements.txt as needed.
 4. deploy from Streamlit (you need an acount, of course)
 
 ### to make a modified debate team
 1. download builddebateteamm.py and SAMPLE.env into your favorite IDE.
 2. modify SAMPLE.env by addind your own paid OPENAI api key where indicated. The free api key will not work because the agents and agentbuilder use GPT4.
-3. Save as .env.
+3. save as .env.
 4. pip install autogen[autobuild]
 5. change the text of building_task in builddebateteam tyo whatever you want.
 6. run.
-7. You will be prompted for an optional test debate topic and a name for the saved debate team.
-8. If you use your debate team with either debatemanager or a Streamlit app, be sure to specifiy the name and location of your debate team json file in debatemanager __main___ or streamlit_app.py as appropriate. If you uploiaded the json file containing your debate team speciifcation to your own reepository. 
+7. you will be prompted for an optional test debate topic and a name for the saved debate team.
+8. if you use your debate team with either debatemanager or a Streamlit app, be sure to specifiy the name and location of your debate team json file in debatemanager __main___ or streamlit_app.py as appropriate. If you uploaded the json file containing your debate team speciifcation to your own repository or somewhere else, you can give the url ratther than a file address. 
 
 
