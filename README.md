@@ -52,7 +52,7 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
 ## ideas for enhancement
 Let one or more of the debaters be humans
 
-Empoweer the debaters to do research
+Empower the debaters to do research
 
 Empower the judge to fact-check
 
