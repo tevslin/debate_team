@@ -36,7 +36,7 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
 7. you will be prompted for an optional test debate topic and a name for the saved debate team.
 8. if you use your debate team with either debatemanager or a Streamlit app, be sure to specifiy the name and location of your debate team json file in debatemanager __main___ or streamlit_app.py as appropriate. If you uploaded the json file containing your debate team speciifcation to your own repository or somewhere else, you can give the url ratther than a file address.
 
-### to capture console output from a Python finction and stream it to streamlit
+### to capture console output from a Python function and stream it to streamlit
 1. download ststreamer.py (it's not on PyPi).
 2. import ststreamer into the code that your're writing
 3. write a function like this and use it to call your function.
