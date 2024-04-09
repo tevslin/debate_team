@@ -38,7 +38,7 @@ Click the URL https://debateteam.streamlit.app/. You will need an OPENAI api key
 
 ### to capture console output from a Python function and stream it to streamlit
 1. download ststreamer.py (it's not on PyPi).
-2. import ststreamer into the code that your're writing
+2. import ststreamer into the code that you're writing
 3. write a function like this and use it to call your function.
  ~~~Python
     # Function to capture the console output
