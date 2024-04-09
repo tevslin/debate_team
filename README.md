@@ -1,7 +1,7 @@
 # debate_team
 Code, samples, and a working app for creating and using a debate team of AI agents with with Agent AutoBuild.
 
-Meant mainly as an example of what can be done with multiple agents and of how it is to create badly-needed teachingl tools with AI.
+Meant mainly as an example of what can be done with multiple agents and of how aesy it is to create badly-needed teachingl tools with AI.
 
 ## overview
 
