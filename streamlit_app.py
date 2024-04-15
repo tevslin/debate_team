@@ -36,6 +36,12 @@ if st.session_state['api_key'] is None:
         if api_key:
             st.session_state['api_key'] = api_key
 
+with st.sidebar:
+    st.markdown("[feature requests](https://github.com/tevslin/debate_team/discussions)", unsafe_allow_html=True)
+    st.markdown("[bug reports](https://github.com/tevslin/debate_team/issues)", unsafe_allow_html=True)
+    st.markdown("[source code](https://github.com/tevslin/debate_team)", unsafe_allow_html=True)
+    st.markdown("[more info](https://blog.tomevslin.com/2024/02/an-ai-debate.html)", unsafe_allow_html=True)  
+
 # If API key is provided, create and load the debate team
 if st.session_state['api_key'] and st.session_state['dm'] is None:
     with st.spinner("Creating debate team..."):
